@@ -1,0 +1,23 @@
+JSP Technology in the Java EE 5 Platform
+The focus of Java EE 5 has been ease of development by making use of Java language annotations that were introduced by J2SE 5.0. JSP 2.1 supports this goal by defining annotations for dependency injection on JSP tag handlers and context listeners.
+
+Another key concern of the Java EE 5 specification has been the alignment of its webtier technologies, namely JavaServer Pages (JSP), JavaServer Faces (JSF), and JavaServer Pages Standard Tag Library (JSTL).
+
+The outcome of this alignment effort has been the Unified Expression Language (EL), which integrates the expression languages defined by JSP 2.0 and JSF 1.1.
+
+The main key additions to the Unified EL that came out of the alignment work have been:
+
+A pluggable API for resolving variable references into Java objects and for resolving the properties applied to these Java objects, Support for deferred expressions, which may be evaluated by a tag handler when needed, unlike their regular expression counterparts, which get evaluated immediately when a page is executed and rendered, and 
+Support for lvalue expression, which appear on the left hand side of an assignment operation. When used as an lvalue, an EL expression represents a reference to a data structure, for example: a JavaBeans property, that is assigned some user input. 
+The new Unified EL is defined in its own specification document, which is delivered along with the JSP 2.1 specification.
+
+Thanks to the Unified EL, JSTL tags, such as the JSTL iteration tags, can now be used with JSF components in an intuitive way.
+
+
+Servlets are the Java technology for serving HTTP requests
+Basic servlet functionalities implemented by the basic HTTP servlet classes 
+Servlets serve the Service requests
+Interface defining methods that all servlets implement
+Servlet specification is a standard
+Good support for security and  data base access
+<font color="green">www.books.google.com</font>

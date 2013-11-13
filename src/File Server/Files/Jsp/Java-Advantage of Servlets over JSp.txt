@@ -1,0 +1,12 @@
+There is no advantage of servlets over jsp. Whatever servlets can do will be done by JSPs also. A JSP is ultimately a servlet. We go for JSP to seperate the bussiness logic from the presentation logic. But in servlets, we will write both bussiness logic and presentation logic together. There problems come into the picture. If we do any modification to the presentation logic, we have to re-deploy the servlet inorder to see the reuslt of modified code of the servlet. So for every time we modifing the servlet , we should re-deploy the servlet. Its very big headache. 
+
+But where as in the case of JSP, we will write presentation logic in jsp ang bussiness logic inside the java bean and we use that java bean object in our jsp page using <jsp:useBean> tag. So, even if we do any modification to the presentation logic, no need to re-deploy the jsp. It will automatically reloaded by the container. 
+
+JSP increase the productivity of the developer. ie, a developer can write more no. of jsps than the servlets with in a period of time.
+
+But there is only a small disadvantage of jsp over servlet. JSP somewhat slower than servlet. Bcoz, while converting a jsp into a servlet, jspc(jsp compiler)generates a lot of code that really unwanted one. But if we write a servlet, we know what what we need to write and what we need not to write. So we wont write any extra code. Thatswhy manually written servlets are somewhat faster than JSPs
+
+It is plotform Independent
+JSP is a technology that combines HTML and XML markup languages 
+JavaServer Pages technology provides a simplified fast way to create dynamic web content JSP technology enables rapid development of web-based applications that are server
+<font color="green">www.JavaBeat.com</font>

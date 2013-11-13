@@ -1,0 +1,27 @@
+Working from the Command Line
+If you will be working from the command line only, save Calculator.fx to a directory of your choice. Assuming 
+that the JDK and JavaFX SDK are already installed and in your path, you should be able to compile this program
+ with the following command:
+
+javafxc Calculator.fx
+ 
+ 
+After compilation, you will find that the corresponding Java bytecode has been generated and placed into a 
+file named calculator.class.
+
+You can now run the compiled class in the Java Virtual Machine with the following command:
+
+javafx Calculator
+ 
+ 
+The output is:
+
+100 + 2 = 102
+100 - 2 = 98
+100 * 2 = 200
+100 / 2 = 50
+ 
+ 
+This application may be small, but it introduces you to some important programming language constructs 
+(discussed in the next lesson). Learning these constructs is your first step towards mastering the JavaFX 
+Script programming language.

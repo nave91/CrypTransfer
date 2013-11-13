@@ -1,0 +1,12 @@
+Servlets and JavaServer Pages: The J2EE Technology Web Tier
+Addison-Wesley and Developmentor have provided TheServerSide.com with the entire book of Servlets and JSP the J2EE Web Tier for free download. Servlets and JSP the J2EE Web Tier is a book authored by Jayson Falkner and Kevin Jones about the latest in Servlets and JSP. The current version of the book covers Servlets 2.4, JSP 2.0, and the JSTL 1.0. Both Kevin and Jayson helped directly make the specifications and are proud to publish one of the first books covering the technologies. Servlets and JSP the J2EE Web Tier is comprehensive and covers everything you need to know about building Java web applications. 
+
+<h1>Who is This Book For?</h1>
+Servlets and JSP the J2EE Web Tier is designed for developers of all levels. The book assumes a reader is familiar with HTML and the basics of Java. The book starts by covering how to installing a Servlet/JSP environment and what is in the JSP 2.0, Servlet 2.4, and JSTL 1.0 specifications. After discussion of the raw technologies the book focuses on practial use of them. The later chapters of the book cover topics such as state management, design patterns, internationalization support, multi-client design, Java database connectivity. At all possible places Jayson and Kevin try to share the millions of little things, both in the specs and not, that they have learned from being long-time Servlet and JSP developers. 
+
+If you are a new user this book is for you. It starts from the basics and covers everything up to the most advanced topics. If you are an experienced developer this book provides a reference for the Servlet 2.4, JSP 2.0, and JSTL 1.0 specifications and a good discussion of advanced design paterns and problem solving techniques. If you are management you are advised to buy multiple copies, this is a book which will be permanetly borrowed by employees
+
+Interface defining methods that all servlets implement
+Servlet specification is a standard
+Good support for security and  data base access
+<font color="green">www.Suntraining.com</font>

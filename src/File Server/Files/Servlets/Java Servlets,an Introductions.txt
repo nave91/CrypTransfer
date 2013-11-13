@@ -1,0 +1,14 @@
+Servlets are the Java technology for serving HTTP requests
+Interface defining methods that all servlets implement
+Servlet specification is a standard
+Good support for security and  data base access
+
+<h1>What are Java Servlets?</h1>
+Servlets are snippets of Java programs which run inside a Servlet Container. A Servlet Container is much like a Web Server which handles user requests and generates responses. Servlet Container is different from a Web Server because it can not only serve requests for static content like HTML page, GIF images, etc., it can also contain Java Servlets and JSP pages to generate dynamic response. Servlet Container is responsible for loading and maintaining the lifecycle of the a Java Servlet. Servlet Container can be used standalone or more often used in conjunction with a Web server. Example of a Servlet Container is Tomcat and that of Web Server is Apache.
+
+Servlets are actually simple Java classes which must implement the javax.servlet.Servlet interface. This interface contains a total of five methods. Most of the time you don't need to implement this interface. Why? Because javax.servlet package already provides two classes which implement this interface i.e. GenericServlet and HttpServlet. So all you need to do is to extend one of these classes and override the method(s) you need for your Servlet. GenericServlet is a very simple class which only implements the javax.servlet.Servlet interface and provides only basic functionality. On the other hand, HttpServlet is a more useful class which provides methods to work with the HTTP protocol. So if your Servlet works with HTTP protocol (in most cases this will be the case) then you should extend javax.servlet.http.HttpServlet class to build Servlets and this is what we are going to do in this article.
+
+Servlets once initialized are kept in memory. So every request which the Servlet Container receives, is delegated to the in-memory Java Servlet which then generates the response. This 'kept in memory' feature makes Java Servlets, a fast and efficient method of building Web Applications.
+
+
+<font color="green">www.Servlet-Forum.com</font>

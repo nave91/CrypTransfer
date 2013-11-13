@@ -1,0 +1,43 @@
+New Features in Struts 2.0 for AJAX
+One of the useful enhancements in Struts 2.0 is the introduction of AJAX Theme
+
+The Ajax theme extends the xhtml theme with AJAX features. The theme uses the popular DOJO AJAX/JavaScript toolkit. The new AJAX features include:
+
+<h1>AJAX Client Side Validation </h1>
+Remote form submission support (works with the submit tag as well) 
+An advanced div template that provides dynamic reloading of partial HTML 
+An advanced a template that provides the ability to load and evaluate JavaScript remotely 
+An AJAX-only tabbed Panel implementation 
+A rich pub-sub event model 
+Interactive auto complete tag 
+The framework provides a set of tags to help you ajaxify your applications, on Dojo.
+
+To use the Ajax tags you need to set the "theme" attribute to "Ajax".Use the head tag to configure the page for the Ajax theme.
+
+URL
+The "href" attribute must contain a url built with the URL tag
+Example: Initial Content
+	
+Set the "debug" attribute of the head tag to "true" to display debug information on the bottom of the page
+
+<h1>Indicators</h1>
+Use indicators to notify the user that a request is in progress. The indicator should be hidden when the page is loaded.
+This indicator is an image:
+
+<h1>Dynamic Div</h1>
+The div tag is a content area that can load its content asynchronously. The div tag can be forced to reload its content using topics. To define the topics that will trigger the refresh of the panel, use the "listenTopics" attribute. This tag will load its content when the page is loaded, unless "autoStart" is set to "false".
+While Dojo supports crossdomain XHR using IFrames, the S2 Ajax tags do not (yet)
+
+This div will refresh every time the topics "/refresh0" or "/refresh1" are published:
+
+	
+	
+
+to publish a topic use.dojo.event.topic.publish("/refresh”);
+
+
+
+It is Easy to learn and use
+Struts Integrates well with J2EE
+Unified error handling programmatically and declaratively
+<font color="green">www.Feature.com</font>

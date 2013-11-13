@@ -1,0 +1,28 @@
+There are many different exceptions that can be thrown by a program, and the Java API contains
+ quite a few. A lot are contained in the default package, java.lang; however, when you start 
+using more functionality such as AWT, Swing, or java.io, the packages may also contain a
+dditional exceptions thrown by those libraries. As you start expanding the functionality, 
+it might be a good idea to look at potential exceptions in the package and when they might
+ be thrown in the course of your application. Here is a primer of some: 
+
+
+ArithmeticException--thrown if a program attempts to perform division by zero 
+
+ArrayIndexOutOfBoundsException--thrown if a program attempts to access an index
+of an array that does not exist 
+
+StringIndexOutOfBoundsException--thrown if a program attempts to access a character at
+ a non-existent index in a String 
+
+NullPointerException--thrown if the JVM attempts to perform an operation on an Object
+ that points to no data, or null 
+
+NumberFormatException--thrown if a program is attempting to convert a string to a numerical
+ datatype, and the string contains inappropriate characters (i.e. 'z' or 'Q') 
+
+ClassNotFoundException--thrown if a program can not find a class it depends at runtime
+ (i.e., the class's ".class" file cannot be found or was removed from the CLASSPATH) 
+
+IOException--actually contained in java.io, but it is thrown if the JVM failed to open 
+an I/O stream 
+

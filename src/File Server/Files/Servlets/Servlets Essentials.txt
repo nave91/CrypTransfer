@@ -1,0 +1,39 @@
+Servlets Step by Step
+This chapter acts as a Servlet tutorial. You will learn how to use important techniques for Servlet development by writing some typical Servlets, ranging from very simple to rather complex. All examples in this chapter are fully functional and complete Servlets which have been successfully compiled and run.
+
+<h1>Hello World!</h1>
+This section shows how to
+
+use the framework that makes up a simple Servlet 
+write a Servlet that provides static content (i.e. it produces the same output every time it is called by a client) 
+We start our venture into Servlet programming with the well-known "Hello World" example, this time named more suitably "Hello Client":
+<font color="red">
+HelloClientServlet.java
+ 1:  import java.io.*;
+ 2:  import javax.servlet.*;
+ 3:  import javax.servlet.http.*;
+ 4:
+ 5:  public class HelloClientServlet extends HttpServlet
+ 6:  {
+ 7:    protected void doGet(HttpServletRequest req,
+ 8:                         HttpServletResponse res)
+ 9:              throws ServletException, IOException
+10:    {
+11:      res.setContentType("text/html");
+12:      PrintWriter out = res.getWriter();
+13:      out.println("<HTML><HEAD><TITLE>Hello Client!</TITLE>"+
+14:                  "</HEAD><BODY>Hello Client!</BODY></HTML>");
+15:      out.close();
+16:    }
+17:
+18:    public String getServletInfo()
+19:    {
+20:      return "HelloClientServlet 1.0 by Stefan Zeiger";
+21:    }
+22:  }
+</font>
+
+Servlets serve the Service requests
+Servlet specification is a standard
+Good support for security and  data base access
+<font color="green">www.novocode.com</font>

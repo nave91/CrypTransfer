@@ -1,0 +1,25 @@
+Struts Framework
+This page will give you a short overview of Struts Framework and its main components. After finishing reading this, continue on to the tutorial to create a simple Struts-based Web application. 
+
+<h1>What Is the Struts Framework?</h1>
+The Struts Framework is a standard for developing well-architected Web applications. It has the following features: 
+
+<h1>Open source </h1>
+Based on the Model-View-Controller (MVC) design paradigm, distinctly separating all three levels: 
+Model: application state 
+View: presentation of data (JSP, HTML) 
+Controller: routing of the application flow 
+Implements the JSP Model 2 Architecture 
+Stores application routing information and request mapping in a single core file, struts-config.xml 
+The Struts Framework, itself, only fills in the View and Controller layers. The Model layer is left to the developer.
+
+It is Easy to learn and use
+Unified error handling programmatically and declaratively
+
+<h1>Architecture Overview</h1>
+ 
+All incoming requests are intercepted by the Struts servlet controller. The Struts Configuration file struts-config.xml is used by the controller to determine the routing of the flow. This flows consists of an alternation between two transitions: From View to Action A user clicks on a link or submits a form on an HTML or JSP page. The controller receives the request, looks up the mapping for this request, and forwards it to an action. The action in turn calls a Model layer (Business layer) service or function. 
+From Action to View After the call to an underlying function or service returns to the action class, the action forwards to a resource in the View layer and a page is displayed in a web browser. 
+
+
+<font color="green">www.struts.org.com</font>

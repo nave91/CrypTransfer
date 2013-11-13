@@ -1,0 +1,41 @@
+Constructors and methods differ in three aspects of the signature: modifiers, return type, and name.
+ Like methods, constructors can have any of the access modifiers: public, protected, private, or
+ none (often called package or friendly). Unlike methods, constructors can take only access 
+modifiers. Therefore, constructors cannot be abstract, final, native, static, or synchronized. 
+
+The return types are very different too. Methods can have any valid return type, or no return 
+type, in which case the return type is given as void. Constructors have no return type, not 
+even void. 
+
+Finally, in terms of the signature, methods and constructors have different names. Constructors
+ have the same name as their class; by convention, methods use names other than the class name.
+ If the Java program follows normal conventions, methods will start with a lowercase letter, 
+constructors with an uppercase letter. Also, constructor names are usually nouns because class
+ names are usually nouns; method names usually indicate actions. 
+
+The use of "this" 
+Constructors and methods use the keyword this quite differently. A method uses this to refer 
+to the instance of the class that is executing the method. Static methods do not use this; 
+they do not belong to a class instance, so this would have nothing to reference. Static methods
+ belong to the class as a whole, rather than to an instance. Constructors use this to refer to
+ another constructor in the same class with a different parameter list. Study the following code: 
+
+
+public class Platypus {
+
+       String name;
+
+       Platypus(String input) {
+               name = input;
+       }
+
+       Platypus() {
+               this("John/Mary Doe");
+       }
+
+       public static void main(String args[]) {
+               Platypus p1 = new Platypus("digger");
+               Platypus p2 = new Platypus();
+       }
+}
+

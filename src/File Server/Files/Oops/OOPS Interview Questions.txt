@@ -1,0 +1,43 @@
+An interface is a contract & defines the requisite behavior of generalization of types. 
+
+An interface mandates a set of behavior, but not the implementation. Interface must be inherited. We can't create an instance of an interface. 
+<h1>what is an interface?</h1>
+An interface is an array of related function that must be implemented in derived type. Members of an interface are implicitly public & abstract. 
+
+An interface can inherit from another interface. 
+ 
+<h1>What is Sealed modifiers?</h1>
+Sealed types cannot be inherited & are concrete. 
+Sealed modifiers can also be applied to instance methods, properties, events & indexes. It can't be applied to static members. 
+
+Sealed members are allowed in sealed and non-sealed classes. 
+ 
+<h1>What is Abstract Class?</h1>
+Abstract class exists extensively for inheritance. We can't create an instance of an abstract class. Abstract type must be inherited. 
+
+Static, Value Types & interface doesn't support abstract modifiers. 
+
+Static members cannot be abstract. Classes with abstract member must also be abstract. 
+ 
+<h1>What is New modifiers?</h1>
+The new modifiers hides a member of the base class. C# supports only hide by signature. 
+ 
+<h1>What is Virtual keyword?<h1>
+This keyword indicates that a member can be overridden in a child class. It can be applied to methods, properties, indexes and events. 
+ 
+<h1>What is Inheritance?</h1>
+It provides a convenient way to reuse existing fully tested code in different context thereby saving lot of coding. 
+
+Inheritance of classes in C# is always implementation Inheritance. 
+ 
+<h1>What is Static Method?</h1>
+It is possible to declare a method as Static provided that they don't attempt to access any instance data or other instance methods.  
+
+
+OOPs is Object oriented programming,
+Oops concept:
+Encaptulation
+inheritance
+polymorphysm,
+Abstraction
+<font color="green">www.geekInterview.com</font>

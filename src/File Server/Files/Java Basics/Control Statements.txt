@@ -1,0 +1,25 @@
+In this section, we are going to discuss the control statements. Different types of control statements:
+ the decision making statements (if-then, if-then-else and switch), looping statements (while, do-while
+ and for) and branching statements (break, continue and return).
+
+Control Statements    
+The control statement are used to controll the flow of execution of the program . This execution order 
+depends on the supplied data values and the conditional logic. Java contains the following types of 
+control statements:
+
+1- Selection Statements
+2- Repetition Statements
+3- Branching Statements 
+
+Selection statements:
+
+If Statement:
+This is a control statement to execute a single statement or a block of code, when the given condition
+ is true and if it is false then it skips if block and rest code of program is executed .
+
+    Syntax:
+        if(conditional_expression){
+            <statements>;
+            ...;
+            ...;
+}

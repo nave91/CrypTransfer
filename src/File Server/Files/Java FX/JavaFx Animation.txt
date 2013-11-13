@@ -1,0 +1,11 @@
+Build an application step-by-step to see how concurrent and sequential animation of simple objects
+ from point to point works in the JavaFX Script programming language. 
+
+How do you create concurrent animation of two or more objects? How do you animate an object so that
+ it begins to move after another object finishes? 
+
+The animation of on-screen objects is a manipulation of one or more attributes of the object over 
+time. The following applet shows basic timeline animation of simple shapes. The rectangles show 
+concurrent animation and the circle shows sequential animation. The shapes are simple to reduce the
+ code to as few lines as possible. The focus is on understanding how JavaFX animation works.
+

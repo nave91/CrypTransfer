@@ -1,0 +1,33 @@
+Any distributed component technology should have the following requirements: 
+
+1. There should be a mechanism to create the client-side and server-side proxy objects. 
+A client-side proxy represents the server-side object on the client-side. As far as the 
+client is concerned, the client-side proxy is equivalent to the server-side object. On 
+the other hand, the purpose of the server-side proxy is to provide the basic infrastructure
+ to receive client requests and delegate these request to the actual implementation object 
+
+2. We need to obtain a reference to client-side proxy object. In order to communicate with
+ the server-side object, the client needs to obtain a reference to the proxy. 
+
+3. There should be a way to inform the distributed component system that a specific 
+component is no longer in use by the client. 
+
+In order to meet these requirements, the EJB architecture specifies two kinds of interfaces
+ for each bean. They are home interface and remote interface. These interfaces specify the
+ bean contract to the clients. However, a bean developer need not provide implementation
+ for these interfaces. The home interface will contain methods to be used for creating 
+remote objects. The remote interface should include business methods that a bean is able
+ to serve to clients. One can consider using the home interface to specify a remote object
+ capable of creating objects conforming to the remote interface. That is, a home interface
+ is analogous to a factory of remote objects. These are regular Java interfaces extending
+ the javax.ejb.EJBHome and javax.ejb.EJBObject interfaces respectively. 
+
+As discussed below, the EJB architecture specifies three types of beans - session beans,
+ entity beans, and message-driven beans. A bean developer has to specify the home and remote
+ interfaces and also he has to implement one of these bean interfaces depending upon the
+ type of the bean. For instance, for session beans, he has to implement the 
+javax.ejb.SessionBean interface. The EJB architecture expects him to implement the methods
+ specified in the bean interface and the methods specified in the home and remote interfaces.
+ During the deployment time, he should specify the home and remote interfaces and bean
+ implementation class to define a bean. The EJB container relies on specific method names
+ and uses delegation for invoking methods on bean instances

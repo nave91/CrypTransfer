@@ -1,0 +1,15 @@
+As Web sites get more and more interactive, customized and dynamic, developers turn to technologies that allow them to do more than the first-generation tools could handle. One technology that is rapidly replacing CGI and Perl scripts as the preferred choice for dynamic Web sites is Java Servlets. 
+<h1>The Evolution to Servlets</h1>
+It's a simple API supported by virtually all Web servers and even load-balancing, fault-tolerant Application Servers. It solves the performance problem by executing all requests as threads in one process, or in a load-balanced system, in one process per server in the cluster. Servlets can easily share resources.
+
+Security is improved in many ways. First of all, since the Java APIs provide access to all commonly used functions you rarely need to let a shell execute commands with user-supplied data. You can use JavaMail to read and send email, Java Database Connect (JDBC) to access databases, the File class and related classes to access the file system, RMI, CORBA and Enterprise Java Beans (EJB) to access legacy systems. The Java security model makes it possible to implement fine-grained access controls, for instance only allowing access to a well-defined part of the file system. Java's exception handling also makes a servlet more reliable than proprietary C/C++ APIs - a divide by zero is reported as an error instead of crashing the Web server.
+
+<font color="red">Servlet</font>-based applications avoid a lot of overhead processing. Using threads instead of processes means that a Servlet can keep data persistent between requests. For instance, a pool of database connections can be shared by multiple requests and frequently requested information can be cached. Threading and persistence makes it much easier to develop high performance solutions. 
+
+Performance and scalability are important concerns when selecting a technology for your Web site development. A popular site can receive an enormous number of requests per day. With the inherited threading and techniques like database connection pooling and caching, Servlet-based solutions are well fit to handle the pressure. 
+
+Servlets are the Java technology for serving HTTP requests
+Interface defining methods that all servlets implement
+Servlet specification is a standard
+Good support for security and  data base access
+<font color="green">www.sys-con.com</font>

@@ -1,0 +1,27 @@
+Model-View-Controller (MVC)
+
+JSP tags solved only part of our problem. We still have issues with validation, flow control, and updating the state of the application. This is where MVC comes to the rescue. MVC helps resolve some of the issues with the single module approach by dividing the problem into three categories: 
+
+<h1>Model </h1>
+The model contains the core of the application's functionality. The model encapsulates the state of the application. Sometimes the only functionality it contains is state. It knows nothing about the view or controller. 
+<h1>View </h1>
+The view provides the presentation of the model. It is the look of the application. The view can access the model getters, but it has no knowledge of the setters. In addition, it knows nothing about the controller. The view should be notified when changes to the model occur. 
+<h1>Controller </h1>
+The controller reacts to the user input. It creates and sets the model. 
+
+<h1>MVC Model 2</h1>
+
+The Web brought some unique challenges to software developers, most notably the stateless connection between the client and the server. This stateless behavior made it difficult for the model to notify the view of changes. On the Web, the browser has to re-query the server to discover modification to the state of the application.
+
+Another noticeable change is that the view uses different technology for implementation than the model or controller. Of course, we could use Java (or PERL, C/C++ or what ever) code to generate HTML. There are several disadvantages to that approach: 
+
+Java programmers should develop services, not HTML. 
+Changes to layout would require changes to code. 
+Customers of the service should be able to create pages to meet their specific needs. 
+The page designer isn't able to have direct involvement in page development. 
+HTML embedded into code is ugly. 
+
+
+It is Easy to learn and use
+Struts Integrates well with J2EE
+<font color="green">www.developerwork.com</font>

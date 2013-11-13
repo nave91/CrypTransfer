@@ -1,0 +1,15 @@
+What Is the Struts Framework?
+The Struts Framework is a standard for developing well-architected Web applications.
+ It has the following features: 
+
+•Open source
+•Based on the Model-View-Controller (MVC) design paradigm, distinctly separating
+ all three levels: 
+?Model: application state
+?View: presentation of data (JSP, HTML)
+?Controller: routing of the application flow
+•Implements the JSP Model 2 Architecture
+•Stores application routing information and request mapping in a single core file,
+ struts-config.xml
+The Struts Framework, itself, only fills in the View and Controller layers. The
+ Model layer is left to the developer.

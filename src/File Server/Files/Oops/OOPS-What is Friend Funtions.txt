@@ -1,0 +1,21 @@
+RE: What is virtual class and friend class?
+The Detail of the virtual class and friend class given below
+ 
+<font color="red">Virtual Base Class</font>: Used in context of multiple inheritance in C++. If you plan to derive two classes from a class, and further derive one class from the two classes in the second level, you need to declare the uppermost base class as 'virtual' in the inherited classes. This prevents multiple copies of the uppermost base class data members when an object of the class at the third level of hierarchy is created.
+
+<font color="red">Friend class</font>: When a class declares another class as its friend, it is giving complete access to all its data and methods including private and protected data and methods to the friend class member methods.
+
+Friendship is not bi-directional. If A declares B as its friend it does NOT mean that A can access private data of B. It only means that B can access all data of A.
+
+
+ 
+
+<h1>Basic OOPs Concept</h1>
+
+OOPs is Object oriented programming,
+Oops concept:
+Encaptulation
+inheritance
+polymorphysm,
+Abstraction
+<font color="green">www.Functions.com</font>

@@ -1,0 +1,20 @@
+The Media Browser application is built in an iterative process that begins with simple architecture that runs
+ on a desktop platform only. It then progressively develops to a sophisticated rich internet application that
+ showcases features of the JavaFX platform and runs on the desktop, browser, and the JavaFX Mobile Emulator.
+
+The architecture promotes rapid development and is adaptable to changes. It includes several class files that
+ describe how the data is represented and accessed. With this type of architecture, it is easy to scale the 
+application for use on different screens. 
+
+The Media Browser tutorial gives you an example of the JavaFX platform capabilities. It gives you enough 
+information to jump-start your development and gives you an understanding of the capabilities of the JavaFX
+ language. The tutorial is not meant to teach the JavaFX language--for a comprehensive look at the language,
+ see the JavaFX Script Programming Language and Building GUI Applications With JavaFX tutorials. 
+
+The NetBeans source files are available for the final application, which runs on the JavaFX Mobile Emulator.
+ The NetBeans source files are also available for each of the tasks described in the tutorial. Once you've 
+uncompressed the file that you've downloaded, you can open the source files in the NetBeans IDE. As an added
+ bonus, the source files include detailed comments from the developers. For a comprehensive look at how the 
+application was developed, you can read the five modules and their respective tasks. Each module includes 
+links to tutorials and articles that apply to the module contents. 
+

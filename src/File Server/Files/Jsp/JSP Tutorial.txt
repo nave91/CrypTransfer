@@ -1,0 +1,31 @@
+Tutorial Overview
+The prerequisites for the tutorial are: 
+HTML.  You should be able to put together HTML pages. 
+Java.  You should be able to program in Java. 
+This tutorial teaches JSP by progressing from very simple examples to complex examples. 
+Advanced learners may want to do a quick review of the introductory material and skip to the lessons appropriate to their level. 
+
+<h1>The steps in the tutorial are outlined below: </h1>
+
+Getting familiar with your JSP server 
+Your first JSP 
+Adding dynamic content via expressions 
+Scriptlets 
+Mixing Scriptlets and HTML 
+Directives 
+Declarations 
+Tags 
+Sessions 
+Beans and Forms Processing 
+Tag Libraries 
+Form Editing 
+Log-in pages 
+Further learning 
+
+
+JavaServer Pages technology provides a simplified fast way to create dynamic web content JSP technology enables rapid development of web-based applications that are server
+It is plotform Independent
+JSP is a technology that combines HTML and XML markup languages 
+In jsp there is no interface
+Java Server Pages includes scripplets of Servletcode in an Html page
+<font color="green">www.tutorial.com</font>

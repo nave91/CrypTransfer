@@ -1,0 +1,19 @@
+Struts is based on a host of foundational technologies
+Unified error handling programmatically and declaratively
+
+When Java servlets were first invented, many programmers quickly realized that they were a Good Thing. They were faster and more powerful that standard CGI, portable, and infinitely extensible. 
+
+But writing HTML to send to the browser in endless println() statements was tiresome and problematic. The answer to that was JavaServer Pages, which turned Servlet writing inside-out. Now developers could easily mix HTML with Java code, and have all the advantages of servlets. The sky was the limit! 
+
+Java web applications quickly became "JSP-centric". This in-and-of itself was not a Bad Thing, but it did little to resolve flow control issues and other problems endemic to web applications. 
+
+Clearly, another paradigm was needed ...
+
+Many clever developers realized that JavaServer Pages AND servlets could be used together to deploy web applications. The servlets could help with the control-flow, and the JSPs could focus on the nasty business of writing HTML. In due course, using JSPs and servlets together became known as Model 2 (meaning, presumably, that using JSPs alone was Model 1). 
+
+Of course, there is nothing new under the Sun ... and many have been quick to point out that JSP's Model 2 follows the classic Model-View-Controller design pattern abstracted from the venerable Smalltalk MVC framework. Java Web developers now tend to use the terms Model 2 and MVC interchangeably. In this guide, we use the MVC paradigm to describe the framework architecture, which might be best termed a Model 2/MVC design. 
+
+The Apache Struts Project was launched in May 2000 by Craig R. McClanahan to provide a standard MVC framework to the Java community. In July 2001, version 1.0 was released, and IOHO, Java Model 2 development has never been quite the same. 
+
+
+<font color="green">www.funtionex.com</font>

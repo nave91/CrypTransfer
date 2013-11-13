@@ -1,0 +1,12 @@
+Several problems can arise when applications contain a mixture of data access code, business
+ logic code, and presentation code. Such applications are difficult to maintain, because
+ interdependencies between all of the components cause strong ripple effects whenever a 
+change is made anywhere. High coupling makes classes difficult or impossible to reuse because
+ they depend on so many other classes. Adding new data views often requires reimplementing or
+ cutting and pasting business logic code, which then requires maintenance in multiple places.
+ Data access code suffers from the same problem, being cut and pasted among business logic 
+methods. 
+
+The Model-View-Controller design pattern solves these problems by decoupling data access,
+ business logic, and data presentation and user interaction. 
+

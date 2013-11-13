@@ -1,0 +1,35 @@
+OOPS Concepts:All the Object-oriented programming (OOP) concepts are given below
+
+<h1>Encapsulation</h1>
+ Wrapping up of data and methods in to a single unit is called as encapsulation.
+
+<h1>Abstraction</h1>Abstraction is a way to remove the association of the behavior of an object with the actual details behind the scenes which implement that object's behavior.
+
+This 'abstraction' is usually accomplished through the use of base classes with virtual functions; each derived function provides the details that implement the behavior behind that abstraction.
+
+A simple example is using a base class "Animal", with a virtual function "Walk". In the case two-legged versus four-legged animals, both of them walk, but the actual mechanics are different. The "Walk" method abstracts the actual mechanics behind the walking that each "Animal" does.
+
+
+<h1>Inheritence</h1>
+Process of Aquiring properties from one object to another without changes.Inheritance is a beautiful thing...
+Say you have a tank car, a box car, a caboose, and a flat car.
+Normally, in each class definition, you would have to define every local variable and member function for all of those, right?
+Well, say you have a class called "railroad car." You can put in variables like "age" or "wear" or functions like "destination." 
+Now if you declare your tank car, box car, flat car, and caboose classes as members of the "railroad_car" class, each of those defined classes inherit the "wear," "age," and "destination" variables and functions.
+
+
+<h1>Polymorphism</h1>
+Object Oriented Programming (abbreviated OOP) is a design philosophy. Instead of thinking of a program as a collection of functions it is thought of as a collection of objects. Each of these objects contain "methods" it uses to accomplish a task. Objects derived from a parent class inherit the methods of the parent class. However, if necessary they can make their own object specific implementation of a particular method and they can implement new ones if necessary.
+
+
+<h1>Message Passing</h1>
+message passing is possible from one object to another.
+
+<h1>Robust and Secure</h1>
+
+           every object is strong one.
+
+           every object is secure one with their access specifiers.
+
+
+<font color="green">www.Wiki.answer.com</font>

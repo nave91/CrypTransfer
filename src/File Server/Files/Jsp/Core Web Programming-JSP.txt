@@ -1,0 +1,14 @@
+Core Web Programming 2nd Edition is a complete update of the worldwide best seller for serious Web programmers. Marty Hall, author of the world's most popular book on Servlet and JSP technology, Core Servlets and JavaServer PagesTM, teams with expert instructor and developer Larry Brown to deliver the ultimate resource for the hottest Web technologies. 
+
+<h1>Core Web Programming covers four main topics: </h1>
+
+HTML. Complete coverage of HTML 4.0, including every element and every attribute in the current standard. Cascading style sheets level 1. Layers. Important Netscape and Internet Explorer extensions. 
+Java 2 (JDK 1.3). Basic syntax, OOP, applets, handling mouse and keyboard events, layout managers, basic and advanced GUI programming with Swing, Java 2D, multithreaded programming, network programming, RMI, and more. 
+Server-Side Programming. Detailed coverage of servlets 2.2 (including handling HTTP headers, cookies, and session tracking). Extensive coverage of JSP 1.1 (including using JavaBeans, creating custom tag libraries, and integrating servlets and JSP with the MVC architecture). HTML forms. Using applets as front ends to servlets or other server-side programs. Parsing XML in Java with JAXP, SAX, DOM, and XSLT. 
+JavaScript. Generating HTML on the client. Handling events. Validating form fields. Mouseover images. Quick reference guide. 
+The resource for the serious Web developer! 
+
+
+In jsp there is no interface
+Java Server Pages includes scripplets of Servletcode in an Html page
+<font color="green">www.webprogramming.com</font>

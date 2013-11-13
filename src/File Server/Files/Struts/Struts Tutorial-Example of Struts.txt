@@ -1,0 +1,38 @@
+Struts 2 Tutorial - Getting StartedSeptember 8, 2008 at 11:20 pm · Filed under Java 
+
+Struts 2 is an MVC web development framework.  It is based off of Web Work and has far less configuration than the original Struts.  I would strongly recommend Struts 2 over Struts for new development due to the faster development times it allows.  This is a very simple example and follow up posts will be coming shortly to help you develop more complex apps with Struts 2.
+
+<h1>Getting Started</h1>
+
+Below is an example project layout that you can use for your project.  It may be useful in helping you to decide where in your project to place your various files.
+
+To get started, you’ll need to download the Struts libraries.  At a minimum, you will need to put the following in your WEB-INF/lib directory:
+
+
+It is used to build Web applications based on Servlet and JSP
+It is Easy to learn and use
+Unified error handling programmatically and declaratively
+
+struts2-core.jar (The framework itself) 
+xwork.jar (Struts 2 is built on the XWork 2 framework) 
+ognl.jar (Object Graph Notation Language is used throughout the framework to access object properties) 
+freemarker.jar (Freemarker is used to create UI tag templates in Struts 2) 
+commons-logging.jar (Used to log to log4j or JDK logging) 
+Now we need to add a filter mapping to your web.xml file in order to have the Struts called whenever a page on your site is accessed:
+<font color="red">
+<?xml version="1.0"?> <!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+  <filter>
+    <filter-name>struts2</filter-name>
+    <filter-class>org.apache.struts2.dispatcher.FilterDispatcher</filter-class>
+  </filter>
+
+  <filter-mapping>
+    <filter-name>struts2</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+</web-app>
+
+</font>
+<font color="green">www.roseIndia.com</font>

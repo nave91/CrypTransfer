@@ -1,0 +1,26 @@
+This article introduces servlets and shows how they can be used in applications written in 
+accordance with the Sun BluePrints Design Guidelines for the JavaTM 2 Platform, Enterprise
+ Edition (J2EE). The article presents an example servlet that you can invoke, study, and 
+-- if you like -- download for more experimentation.
+
+The example servlet is named Guestbook. When you invoke it, the servlet displays a Guestbook
+ page and prompts you to type in some information about yourself. When you fill in the 
+requested data and click a Submit button, the servlet checks to see if you have provided 
+all the data that it feels it needs for a complete database entry. If you have failed to 
+fill in any critical fields -- not just any fields, but any critical fields -- the servlet
+ prompts you to supply the missing data.
+
+Finally, when the servlet has collected all the information it has asked for, it adds the
+ data you have entered to a text file that serves as a database.
+
+To see how the Guestbook servlets works, you must compile it and then install it on a Web 
+server -- or, if you don't have access to a Web server, on a workstation equipped with 
+special software for running servlets locally. One such software package is the servletrunner
+ tool.
+
+Whether you decide to compile and invoke the servlet or not, you'll get an opportunity 
+later in this article take a look at its source file. You can also examine the source file
+ of the HTML page that invokes the servlet. If you like, you can download both the servlet
+and the HTML page that calls it. Then, if you like, you can download and install servletrunner
+ and play around with Guestbook servlet at your leisure -- and, perhaps, use it as a stepping 
+stone for creating similar servlets of your own.

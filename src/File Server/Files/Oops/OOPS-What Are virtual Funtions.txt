@@ -1,0 +1,16 @@
+Oops Is the concept. It is Object Oriented Technology. In Oops, concepts like, Class, Structure, Object, Methods, Function, Property, Inheritance, Polimorphism, Abstraction etc. is there. 
+<h1>OOPS Virtual Functions</h1>
+When you use same method name but for diffrent purpose is call polymorphism. For example, Area() method in Shape class. There are many shape are there , Circle, Rectangle etc. To count area , there should be different caculation. For this, we derieve child class from Shape Parent class like, Circle, Rectangle and implement Area() method in this class. THis is polymorphism.
+
+
+OOPs is an Object Oriented Programming language,which is the extension of Procedure Oriented Programming language.OOps reduce the code of the program because of the extensive feature of Polymorphism.OOps have many properties such as DataHiding,Inheritence,Data Absraction,Data Encapsulation and many more.
+
+Polymorphism is a generic term that means 'many shapes'. In C++ the simplest form of Polymorphism is overloading of functions, for instance several functions called SortArray( arraytype ) where sortarray might be an array of ints, or doubles. 
+We're only interested here though in the OOP form of polymorphism. This is done by making a function (e.g. Draw() ) virtual in the base class Point and then overriding it in the derived class Circle. 
+
+Although the function Draw() is virtual in the derived class Circle, this isn't actually needed- it's a reminder to me that this it is virtual. If the function in a derived class matches a virtual function in the base class on name and parameter types, it is automatically virtual. 
+
+Drawing a point and drawing a circle are too very different operations with only the coordinates of the point and circle in common. So it's important that the correct Draw() is called. How the compiler manages to generate code that gets the right virtual function will be covered in a future tutorial. 
+
+
+<font color="green">www.Functions.com</font>

@@ -1,0 +1,13 @@
+"What Is Struts and Why Should I Care?"
+Struts is an application development framework that is designed for and used with the popular J2EE (Java 2, Enterprise Edition) platform. It cuts time out of the development process and makes developers more productive by providing them a series of tools and components to build applications with. It is non-proprietary and works with virtually any J2EE-compliant application server. Struts falls under the Jakarta subproject of the Apache Software Foundation and comes with an Open Source license (meaning it has no cost and its users have free access to all its internal source code).
+
+In addition to helping you work faster and having no cost, Struts also helps make your end work products better. The main reason for this, to quote from Eric Raymond's "The Cathedral and the Bazaar" (a classic book on open source development), is that "(g)iven a large enough beta-tester and co-developer base, almost every problem will be characterized quickly and the fix obvious to someone." In other words, so many people are using and developing Struts that bugs are found and get fixed quickly.
+
+
+Struts is based on a host of foundational technologies
+Struts architecture as one that follows MVC pattern
+It is used to build Web applications based on Servlet and JSP
+It is Easy to learn and use
+Struts Integrates well with J2EE
+Unified error handling programmatically and declaratively
+<font color="green">www.freeDictionary.com</font>

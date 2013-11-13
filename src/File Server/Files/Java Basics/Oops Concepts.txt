@@ -1,0 +1,18 @@
+Object-oriented programming (OOP) is a computer science term used to characterize a programming
+ language that began development in the 1960’s. The term ‘object-oriented programming’ was 
+originally coined by Xerox PARC to designate a computer application that describes the methodology
+ of using objects as the foundation for computation. By the 1980’s, OOP rose to prominence as 
+the programming language of choice, exemplified by the success of C++. Currently, OOPs such as
+ Java, J2EE, C++, C#, Visual Basic.NET, Python and JavaScript are popular OOP programming 
+languages that any career-oriented Software Engineer or developer should be familiar with. 
+
+OOP is widely accepted as being far more flexible than other computer programming languages.
+ OOPs use three basic concepts as the fundamentals for the programming language: classes, 
+objects and methods. Additionally, Inheritance, Abstraction, Polymorphism, Event Handling 
+and Encapsulation are also significant concepts within object-oriented programming languages
+ that are explained in online tutorials describing the functionality of each concept in detail. 
+
+High-end jobs with well-paid salaries are offered around the world for experts in software 
+development using object-oriented programming languages. The OOPs concepts described and 
+explained in easy to use, step-by-step, practical tutorials will familiarize you with all
+ aspects of OOPs.

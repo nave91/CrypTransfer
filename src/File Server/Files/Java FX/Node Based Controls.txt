@@ -1,0 +1,25 @@
+From its very beginning, JavaFX technology relied on the underlying Java client technology as much as possible, 
+thus initial versions of the JavaFX Script programming language provided UI controls by including wrappers to 
+the Java platform's GUI components (called Swing). While these components still exist in the javafx.ext.swing 
+package, they offer limited scene graph integration and exist only in the JavaFX desktop profile. To overcome 
+these limitations, JavaFX SDK 1.2 introduces a new set of user-interface (UI) controls which were designed and
+implemented expressly for the JavaFX Script programming language and platform. These new UI controls are built
+using nodes in the scene graph, so they are able to take full advantage of the visually rich features of the 
+JavaFX platform, as well as, be portable across profiles (including mobile).
+
+
+New Components
+The following components are available in the javafx.scene.control package:
+
+Button 
+Label 
+CheckBox 
+ToggleButton 
+RadioButton 
+Hyperlink 
+ProgressBar 
+ProgressIndicator 
+Slider 
+ScrollBar 
+ListView 
+TextBox 

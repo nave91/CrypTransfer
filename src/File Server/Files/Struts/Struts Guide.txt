@@ -1,0 +1,28 @@
+Struts Components
+This receives all incoming requests. Its primary function is the mapping of a request URI to an action class selecting the proper application module. It's provided by the framework.
+
+<h1>The struts-config.xml File</h1>
+This file contains all of the routing and configuration information for the Struts application. This XML file needs to be in the WEB-INF directory of the application.
+
+<h1>Action Classes</h1>
+It's the developer's responsibility to create these classes. They act as bridges between user-invoked URIs and business services. Actions process a request and return an ActionForward object that identifies the next component to invoke. They're part of the Controller layer, not the Model layer.
+
+<h1>View Resources</h1>
+View resources consist of Java Server Pages, HTML pages, JavaScript and Stylesheet files, Resource bundles, JavaBeans, and Struts JSP tags.
+
+<h1>ActionForms</h1>
+These greatly simplify user form validation by capturing user data from the HTTP request. They act as a "firewall" between forms (Web pages) and the application (actions). These components allow the validation of user input before proceeding to an Action. If the input is invalid, a page with an error can be displayed.
+
+<h1>Model Components</h1>
+The Struts Framework has no built-in support for the Model layer. Struts supports any model components: 
+
+JavaBeans 
+EJB 
+CORBA 
+JDO 
+any other 
+
+
+Struts is based on a host of foundational technologies
+Struts architecture as one that follows MVC pattern
+<font color="green">www.Strutsguide.com</font>
